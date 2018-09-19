@@ -1,3 +1,9 @@
 # RutoNet.API
 
-For certain reasons, this project will be maintained at https://github.com/rutokz/rutonet.api
+## Technologies
+* ASP.NET Core 2.1
+* Dapper
+* SqlKata
+* PostgreSQL
+* Serilog
+* Swagger
