@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RutoNet.API", "RutoNet.API\RutoNet.API.csproj", "{5169D991-0EFA-4768-9B37-31BAF8678057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RutoNet.API.Repository", "RutoNet.API.Repository\RutoNet.API.Repository.csproj", "{087D3F80-41DB-4842-929A-0C890711BCB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RutoNet.API.Business", "RutoNet.API.Business\RutoNet.API.Business.csproj", "{1FFD1F49-2B30-4420-883A-27DB010CDCC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RutoNet.API.Interfaces", "RutoNet.API.Interfaces\RutoNet.API.Interfaces.csproj", "{924A833E-670C-4462-B638-8EAE6A785244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RutoNet.API.Models", "RutoNet.API.Models\RutoNet.API.Models.csproj", "{C52DFA96-7D33-4B43-B546-3D5E551F24B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5169D991-0EFA-4768-9B37-31BAF8678057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5169D991-0EFA-4768-9B37-31BAF8678057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5169D991-0EFA-4768-9B37-31BAF8678057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5169D991-0EFA-4768-9B37-31BAF8678057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{087D3F80-41DB-4842-929A-0C890711BCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087D3F80-41DB-4842-929A-0C890711BCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087D3F80-41DB-4842-929A-0C890711BCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087D3F80-41DB-4842-929A-0C890711BCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFD1F49-2B30-4420-883A-27DB010CDCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFD1F49-2B30-4420-883A-27DB010CDCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFD1F49-2B30-4420-883A-27DB010CDCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFD1F49-2B30-4420-883A-27DB010CDCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924A833E-670C-4462-B638-8EAE6A785244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924A833E-670C-4462-B638-8EAE6A785244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924A833E-670C-4462-B638-8EAE6A785244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924A833E-670C-4462-B638-8EAE6A785244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52DFA96-7D33-4B43-B546-3D5E551F24B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52DFA96-7D33-4B43-B546-3D5E551F24B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52DFA96-7D33-4B43-B546-3D5E551F24B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52DFA96-7D33-4B43-B546-3D5E551F24B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

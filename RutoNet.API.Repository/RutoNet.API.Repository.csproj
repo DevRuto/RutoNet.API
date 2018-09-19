@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Canducci.SqlKata.Dapper.Postgres">
+        <Version>1.0.9</Version>
+      </PackageReference>
+      <PackageReference Include="Dapper">
+        <Version>1.50.5</Version>
+      </PackageReference>
+      <PackageReference Include="Npgsql">
+        <Version>4.0.3</Version>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RutoNet.API.Interfaces\RutoNet.API.Interfaces.csproj" />
+      <ProjectReference Include="..\RutoNet.API.Models\RutoNet.API.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10">
+        <HintPath>..\..\..\.nuget\packages\serilog\2.5.0\lib\netstandard1.3\Serilog.dll</HintPath>
+      </Reference>
+      <Reference Include="SqlKata.Execution, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\.nuget\packages\sqlkata.execution\1.0.4\lib\netstandard1.3\SqlKata.Execution.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
