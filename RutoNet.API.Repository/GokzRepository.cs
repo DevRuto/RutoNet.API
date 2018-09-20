@@ -47,7 +47,7 @@ namespace RutoNet.API.Repository
                     time.Course = mapcourse;
                     mapcourse.Map = map;
                     return time;
-                }, new { p0 = limit.Value }, splitOn: "steamid32,mapcourseid,mapid");
+                }, compiled.NamedBindings, splitOn: "steamid32,mapcourseid,mapid");
         }
     }
 }
