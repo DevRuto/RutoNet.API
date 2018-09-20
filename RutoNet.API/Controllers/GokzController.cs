@@ -27,5 +27,11 @@ namespace RutoNet.API.Controllers
         {
             return Json(await _gokz.GetMapsByName(map));
         }
+
+        [HttpGet("test")]
+        public async Task<IActionResult> Test()
+        {
+            return Json(await _gokz.GetRecentTimes(20));
+        }
     }
 }

@@ -8,6 +8,6 @@ namespace RutoNet.API.Interfaces.Repository
     {
         Task<IEnumerable<Map>> GetMapsByName(string name);
 
-        Task<IEnumerable<Time>> GetRecentTimes(int? limit = null);
+        Task<IEnumerable<Time>> GetRecentTimes(int? limit);
     }
 }
