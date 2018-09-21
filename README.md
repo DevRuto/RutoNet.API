@@ -1,6 +1,6 @@
 # RutoNet.API
 
-[![Build Status](https://travis-ci.org/RutoKZ/RutoNet.API.svg?branch=master)](https://travis-ci.org/RutoKZ/RutoNet.API)
+Future commit are pushed to https://gitlab.com/Ruto/rutonet.api
 
 ## Technologies
 * ASP.NET Core 2.1
