@@ -4,3 +4,4 @@ solution: RutoNet.API.sln
 dotnet: 2.1
 script:
  - dotnet restore
+ - dotnet build
