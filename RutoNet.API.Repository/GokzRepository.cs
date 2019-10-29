@@ -23,7 +23,10 @@ namespace RutoNet.API.Repository
 
         public Task<IEnumerable<Map>> GetMapsByName(string name)
         {
-            return _db.Query("maps").WhereContains("name", name).GetAsync<Map>();
+            var query = _db.Query("maps").WhereContains("name", name);
+            var compiled = _db.Compiler.Compile(query);
+            Logger.Debug("RAW SQL: " + compiled.RawSql);
+            return query.GetAsync<Map>();
         }
 
         public Task<IEnumerable<Time>> GetRecentTimes(int? limit)
